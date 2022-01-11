@@ -1,0 +1,59 @@
+! Blurb file created by Inform build 6M62
+
+status "/home/turky/Inform7/share/inform7/Internal/Miscellany/CblorbModel.html" "/home/turky/dp_projekt/inform/projekt.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/home/turky/dp_projekt/inform/projekt.inform"
+release to "/home/turky/dp_projekt/inform/projekt.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "projekt.gblorb"
+storyfile "/home/turky/dp_projekt/inform/projekt.inform/Build/output.ulx" include
+ifiction "/home/turky/dp_projekt/inform/projekt.inform/Metadata.iFiction" include
+cover "/home/turky/Inform7/share/inform7/Internal/Miscellany/Cover.jpg"
+picture 1 "/home/turky/Inform7/share/inform7/Internal/Miscellany/Cover.jpg"
+release file "/home/turky/Inform7/share/inform7/Internal/Miscellany/Cover.jpg"
+release file "/home/turky/Inform7/share/inform7/Internal/Miscellany/Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "2D2DD0A8-BD8D-4303-8FF2-0696A0B8E41C"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2022"
+placeholder [TITLE] = "projekt"
+placeholder [AUTHOR] = "turky"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+auxiliary "/home/turky/Inform7/share/inform7/Internal/Miscellany/IntroductionToIF.pdf" "Introduction to IF" "--"
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "projekt.gblorb.js"
+template path "/home/turky/dp_projekt/inform/projekt.materials/Templates"
+template path "/home/turky/Inform/Templates"
+template path "/home/turky/Inform7/share/inform7/Internal/Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "/home/turky/dp_projekt/inform/projekt.inform/Build/output.ulx" to "/home/turky/dp_projekt/inform/projekt.materials/Release/interpreter/projekt.gblorb.js"
+
+! Website instructions
+
+template path "/home/turky/dp_projekt/inform/projekt.materials/Templates"
+template path "/home/turky/Inform/Templates"
+template path "/home/turky/Inform7/share/inform7/Internal/Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line4"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status instruction ||&nbsp;<a href="source:story.ni#line5"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

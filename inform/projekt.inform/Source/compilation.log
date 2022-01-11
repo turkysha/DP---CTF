@@ -1,0 +1,167 @@
+Linux I7 shell, cheesy Perl edition, version 6M62.
+  Adam Thornton (<athornton@gmail.com>), 2007-2018
+
+
+
+
+WELCOME TO INFORM 7
+
+
+(S)tart a new project.
+(O)pen an existing project.
+(Q)uit.
+
+> 
+Location of new project [/home/turky/dp_projekt/inform/projekt.inform/Source] > /tmp/tmp.giNVxHLpqK does not end in ".inform" -- it will be appended.
+Story is at /tmp/tmp.giNVxHLpqK.inform
+
+
+MAIN MENU
+
+
+Set the environment variable BROWSER (or set your browser preferences in the
+ preference panel) to allow browsing the generated HTML index.
+(E)dit the story with /usr/bin/editor.
+
+(C)ompile the story.
+(G)o -- compile and run the story.
+(R)elease the story.
+Release the story for (T)esting.
+
+Change (S)ettings.
+(Q)uit.
+
+> SETTINGS
+
+
+Target: (currently Glulx (ulx))
+
+Compile to Zcode version (8)
+Compile to (G)lulx
+
+
+Toggle (B)lorb packaging: (currently no)
+
+(I)DE Options
+
+(R)eturn to main menu
+
+
+> SETTINGS
+
+
+Target: (currently Glulx (ulx))
+
+Compile to Zcode version (8)
+Compile to (G)lulx
+
+
+Toggle (B)lorb packaging: (currently yes)
+
+(I)DE Options
+
+(R)eturn to main menu
+
+
+> MAIN MENU
+
+
+Set the environment variable BROWSER (or set your browser preferences in the
+ preference panel) to allow browsing the generated HTML index.
+(E)dit the story with /usr/bin/editor.
+
+(C)ompile the story.
+(G)o -- compile and run the story.
+(R)elease the story.
+Release the story for (T)esting.
+
+Change (S)ettings.
+(Q)uit.
+
+> 
+
+Thanks for putting up with this so-called interface!
+
+
+***I7 compilation command: "/home/turky/Inform7/libexec/ni" --release --internal "/home/turky/Inform7/share/inform7/Internal" --format=ulx --project "/tmp/tmp.giNVxHLpqK.inform"***
+Inform 7 build 6M62 has started.
+++ 0% (Reading text)
+I've now read your source text, which is 554 words long.
+++ 5% (Analysing sentences)
+I've also read Standard Rules by Graham Nelson, which is 42655 words long.
+I've also read English Language by Graham Nelson, which is 2297 words long.
+++ 15% (Drawing inferences)
+++ 20% (Binding rulebooks)
+++ 23% (Binding rulebooks)
+++ 26% (Binding rulebooks)
+++ 29% (Binding rulebooks)
+++ 32% (Binding rulebooks)
+++ 35% (Binding rulebooks)
+++ 38% (Binding rulebooks)
+++ 41% (Generating code)
+++ 44% (Generating code)
+++ 47% (Generating code)
+++ 50% (Generating code)
+++ 53% (Generating code)
+++ 56% (Generating code)
+++ 59% (Generating code)
+++ 62% (Generating code)
+++ 65% (Generating code)
+++ 68% (Generating code)
+++ 71% (Generating code)
+++ 74% (Generating code)
+++ 77% (Generating code)
+++ 80% (Generating code)
+++ 83% (Generating code)
+++ 86% (Generating code)
+++ 89% (Generating code)
+++ 92% (Generating code)
+++ 95% (Generating code)
+++ 98% (Generating code)
+
+  The 554-word source text has successfully been translated into an
+    intermediate description which can be run through Inform 6 to complete
+    compilation. There were 6 rooms and 5 things.
+++ 100% (Finishing work)
+++ Ended: Translation succeeded: 6 rooms, 5 things
+Inform 7 has finished.
+***I6 Compilation CMD "/home/turky/Inform7/libexec/inform6" -kE2w~S~DGx "/tmp/tmp.giNVxHLpqK.inform/Build/auto.inf" -o "/tmp/tmp.giNVxHLpqK.inform/Build/output.ulx"***
+Inform 6.33N for Linux (30th August 2015)
+::########################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################
+In:  1 source code files             62659 syntactic lines
+ 56868 textual lines               2084173 characters (ISO 8859-1 Latin1)
+Allocated:
+  8101 symbols (maximum 20000)    22139810 bytes of memory
+Out:   Glulx story file 1.220111 (513K long):
+    21 classes (maximum 200)            51 objects (maximum 640)
+   228 global vars (maximum 512)     86035 variable/array space (maximum 180000)
+    79 verbs (maximum 255)             319 dictionary entries (maximum 2000)
+   145 grammar lines (version 2)       226 grammar tokens (unlimited)
+    78 actions (maximum 200)            37 attributes (maximum 56)
+    40 common props (maximum 256)       18 individual props (unlimited)
+ 88253 characters used in text       70667 bytes compressed (rate 0.800)
+     0 abbreviations (maximum 64)     2859 routines (unlimited)
+ 58199 instructions of code          37601 sequence points
+108544 bytes writable memory used   416768 bytes read-only memory used
+525312 bytes used in machine    1073216512 bytes free in machine
+
+Offsets in story file:
+14ba3 Synonyms     1742a Defaults     14ba7 Objects    15207 Properties
+00000 Variables    18a7a Parse table  192b7 Actions    193f3 Preactions
+193f3 Adjectives   193f3 Dictionary   0003c Code       54774 Strings
+Compiled with 1681 suppressed warnings
+Completed in 0 seconds
+***Blorb Command: "/home/turky/Inform7/libexec/cBlorb" -unix "/tmp/tmp.giNVxHLpqK.inform/Release.blurb" "/tmp/tmp.giNVxHLpqK.inform/Build/output.gblorb"***
+! cBlorb 1.2 [executing on Tuesday 11 January 2022 at 17:59.56]
+! The blorb spell (safely protect a small object as though in a strong box).
+! Auxiliary file: </home/turky/Inform7/share/inform7/Internal/Miscellany/IntroductionToIF.pdf> = <Introduction to IF>
+! Release folder: </tmp/tmp.giNVxHLpqK.materials/Release>
+Copy blorb to: [[/tmp/tmp.giNVxHLpqK.materials/Release/projekt.gblorb]]
+! Completed: wrote blorb file of size 617364 bytes (1 picture(s), 0 sound(s))
+***Blorb Command: "/home/turky/Inform7/libexec/cBlorb" -unix "/tmp/tmp.giNVxHLpqK.inform/Release.blurb" "/tmp/tmp.giNVxHLpqK.inform/Build/output.gblorb"***
+! cBlorb 1.2 [executing on Tuesday 11 January 2022 at 17:59.56]
+! The blorb spell (safely protect a small object as though in a strong box).
+! Auxiliary file: </home/turky/Inform7/share/inform7/Internal/Miscellany/IntroductionToIF.pdf> = <Introduction to IF>
+! Release folder: </tmp/tmp.giNVxHLpqK.materials/Release>
+Copy blorb to: [[/tmp/tmp.giNVxHLpqK.materials/Release/projekt.gblorb]]
+! Completed: wrote blorb file of size 617364 bytes (1 picture(s), 0 sound(s))

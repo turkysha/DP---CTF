@@ -1,0 +1,5 @@
+1. Prolog - samo rješi kviz - 2, 1, 2, 4, 1
+2. Prvo sa globals() naći secret i onda dekodirat iz base64 flag
+3. SQL injekcije - 50 or 1=1, " or ""="", 50; drop table narudzbe
+4. binarno, oktalno, heksadecimalno
+5. četri sobe sa policajcima - Alan Turing, 1950, igra imitacije, CAPTCHA

@@ -1,0 +1,77 @@
+% -*- Mode: Prolog -*-
+
+ucenje:-
+    repeat,
+    write('Dobrodošli u Prolog kviz!'),nl,
+    write('Odgovore napitanje upišite u obliku "broj." bez navodnika, npr. 1.!'),nl,
+    pitanje1,
+    pitanje2,
+    pitanje3,
+    pitanje4,
+    pitanje5,
+    write('Flag: 3001'),nl,nl,
+    ucenje.
+
+pitanje1:-
+    write('1. Prolog upit može se sastoji od samo dva podcilja?'),nl,
+    write('1) istina'),nl,
+    write('2) laž'),nl,
+    write('Unesite odgovor: '),nl,
+    read(X),
+    provjera(X,1).
+
+pitanje2:-
+    write('2. Što od sljedećeg je varijabla?'),nl,
+    write('1) Vari_jabla_'),nl,
+    write('2) \'Varijabla_\''),nl,
+    write('3) \'vArIjaBla_\''),nl,
+    write('4) varijablA'),nl,
+    write('Unesite odgovor: '),nl,
+    read(X),
+    provjera(X,2).
+
+pitanje3:-
+    write('3. ?- 1+1 is 2. Koji će biti rezultat upita?'),nl,
+    write('1) istina'),nl,
+    write('2) laž'),nl,
+    write('Unesite odgovor: '),nl,
+    read(X),
+    provjera(X,3).
+
+pitanje4:-
+    write('1. Kada želimo nešto dokazati kontradikcijom implementiramo?'),nl,
+    write('1) unifikaciju'),nl,
+    write('2) dedukciju'),nl,
+    write('3) rezoluciju'),nl,
+    write('4) rezoluciju kao opovrgavanje'),nl,
+    write('Unesite odgovor: '),nl,
+    read(X),
+    provjera(X,4).
+
+pitanje5:-
+    write('1. Implikaciju A -> B možemo pojednostaviti kao?'),nl,
+    write('1) ~A or B'),nl,
+    write('2) A and ~B'),nl,
+    write('3) ~A xor ~B'),nl,
+    write('4) ~A and ~B'),nl,
+    write('Unesite odgovor: '),nl,
+    read(X),
+    provjera(X,5).
+
+provjera(Odgovor, Pitanje):-
+    (Pitanje == 1 ->
+	 Odgovor == 2;
+     Pitanje == 2 ->
+	 Odgovor == 1;
+     Pitanje == 3 ->
+	 Odgovor == 2;
+     Pitanje == 4 ->
+	 Odgovor == 4;
+     Pitanje == 5 ->
+	 Odgovor == 1).
+
+?- ucenje.
+    
+
+
+
